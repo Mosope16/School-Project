@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+struct Employee{
+   int id;
+   char regno[20];
+   char name[100];
+   float salary;
+};
+
+struct Employee employee_high_salary(struct Employee employee[], int no_employee){
+    struct Employee emp;
+    float max_salary = employees[0].salary;
+
+for(){
+   if(){
+      max_salary = employees[i].salary
+   }
+}
+}

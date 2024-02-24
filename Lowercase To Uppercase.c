@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-//Defining the uppercase_letter Function
+//Define the uppercase_letter Function
 void uppercase_letter(char lowercase_letter[]){
     int i = 0;
     while (lowercase_letter[i] != '\0') {
@@ -11,9 +11,9 @@ void uppercase_letter(char lowercase_letter[]){
         i++;
     }        
 }
- 
+ //Define the main function
 int main(){
-    char lowercase_letter[25];
+    char lowercase_letter[99];
 
     printf("Enter a lowercase letter: \n");
     fgets(lowercase_letter, sizeof(lowercase_letter), stdin);
